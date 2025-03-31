@@ -5,7 +5,7 @@
 :root {
 	--background: #ffffff;
 	--foreground: #171717;
-  font-size: 14px;
+	font-size: 14px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,52 +28,52 @@ body {
 	box-sizing: border-box;
 }
 
-.section-title
-{
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  width: fit-content;
-  padding: 0.8rem 0;
+.section-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: fit-content;
+	padding: 0.8rem 0;
 }
+
 main .section-title {
-  color: #1e3a8a;
-  letter-spacing: 2px;
+	color: #1e3a8a;
+	letter-spacing: 2px;
 }
 
 main .section-title::after {
-  content: "";
-  display: block;
-  width: calc(100%+ 0.6in);
-  height: 1px;
-  left: -0.6in;
-  position: relative;
-  background-color: #1e3a8a;
+	content: '';
+	display: block;
+	width: calc(100%+ 0.6in);
+	height: 1px;
+	left: -0.6in;
+	position: relative;
+	background-color: #1e3a8a;
 }
 
 .section-entry {
 	padding-bottom: 0.75rem;
-  break-inside: avoid-page;
+	break-inside: avoid;
 }
 
 .section-entry .title {
 	font-size: 1.1rem;
 }
 
-main .section-entry .title{
-margin-top: -0.5rem;
+main .section-entry .title {
+	margin-top: -0.5rem;
 }
 
 main .section-entry .title::before {
-  content: "";
-  display: block;
-  width: 0.5rem;
-  height: 0.5rem;
-  position: relative;
-  left: -1.6rem;
-  top: 1rem;
-  background-color: #1e3a8a;
-  margin-right: 0.5rem;
+	content: '';
+	display: block;
+	width: 0.5rem;
+	height: 0.5rem;
+	position: relative;
+	left: -1.6rem;
+	top: 1rem;
+	background-color: #1e3a8a;
+	margin-right: 0.5rem;
 }
 
 .section-entry .title.job {
@@ -87,7 +87,7 @@ main .section-entry .title::before {
 .section-entry .label {
 	font-size: 1rem;
 	font-style: italic;
-  color: #5b626d;
+	color: #5b626d;
 }
 .points {
 	font-size: 1rem;
@@ -97,45 +97,46 @@ main .section-entry .title::before {
 }
 
 .section-entry ul.points {
-  padding-inline-start: 30px;
+	padding-inline-start: 30px;
 }
 
 .doc-title {
-  font-size: 2.3rem;
-  font-weight: bold;
-  text-transform: uppercase;
+	font-size: 2.3rem;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .doc-title::before {
-  content: "";
-  display: block;
-  position: absolute;
-  height: 32.65in;
-  width: 1px;
-  left: 0.4in;
-  background-color: #1e3a8a;
+	content: '';
+	display: block;
+	position: absolute;
+	height: 43.65in;
+	width: 1px;
+	left: 0.4in;
+	background-color: #1e3a8a;
 }
 
 .doc-subtitle {
-  font-size: 0.8rem;
-  font-weight: 200;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+	font-size: 0.8rem;
+	font-weight: 200;
+	letter-spacing: 3px;
+	text-transform: uppercase;
 }
 .contact {
-  font-size: 1rem;
+	font-size: 1rem;
 }
+
 @page {
-  width: 8.5in;
+	width: 8.5in;
 	height: 11in;
   margin: 0;
 }
 
 .contact img {
-  width: 1em;
-  height: 1em;
+	width: 1em;
+	height: 1em;
 }
 
 .start-of-page {
-  padding-top: 0.3in;
+	padding-top: 0.5in;
 }
